@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "onnmy-freelook",
+  "version": "${version}",
+  "name": "ONNMY Freelook",
+  "description": "Client-side freelook with ping in the player list.",
+  "authors": ["ONNMY"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.onnmy.freelook.OnnmyFreelookClient"]
+  },
+  "mixins": ["onnmy-freelook.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
